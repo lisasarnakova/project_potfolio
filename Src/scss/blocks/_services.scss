@@ -1,0 +1,55 @@
+.services{
+    background: $black_main;
+    padding: 120px 0px;
+    &__title{
+        color: $white_main;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    &__card{
+        background-color: $white_main;
+        border-radius: 16px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        flex: 1 0 0;
+    }
+    &__p{
+        text-align: left;
+    }
+    &__line{
+        width: 80px;
+        height: 1px;
+        opacity: 0.2;
+        background: $black_main;
+    }
+    &__block1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+    }
+    &__block2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+    }
+    &__block3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 56px;
+        align-self: stretch;
+    }
+    &__group{
+        display: flex;
+        width: 1160px;
+        align-items: flex-start;
+        gap: 28px;
+    }
+}

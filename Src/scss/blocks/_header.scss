@@ -1,0 +1,121 @@
+.header {
+    padding: 38px 0px;
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo {
+        display: inline-flex;
+        height: 32px;
+        padding: 4px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+
+        border-radius: 8px;
+        border: 2px solid $black_main;
+    }
+    &__text-logo {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    &__list {
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 32px;
+        list-style: none;
+    }
+    &__link {
+        color: $black_main;
+        text-decoration: none;
+    }
+    &__empty {
+        width: 100px;
+    }
+    &__programmer-circle {
+        position: absolute;
+        top: 30px;
+        right: 148px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 170px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $grey;
+    }
+    &__message-circle {
+        position: absolute;
+        top: 362px;
+        left: 209px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $grey;
+    }
+    &__lightning-circle {
+        position: absolute;
+        top: 410px;
+        right: 169px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $grey;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+      &__programmer-circle {
+        display: none;
+      }
+      &__message-circle {
+        display: none;
+      }
+      &__lightning-circle {
+        display: none;
+      }
+    }
+  
+    .container {
+      max-width: 90%;
+    }
+  }
+  
+@media (max-width: 800px) {
+  .header {
+    &__empty {
+      width: 20px;
+    }
+  }
+}
+  
+@media (max-width: 768px) {
+  .header {
+    &__content {
+      flex-direction: column;
+      row-gap: 16px;
+    }
+    &__empty {
+      display: none;
+    }
+    &__list {
+      gap: 20px;
+    }
+    &__list-item {
+      font-size: 12px;
+    }
+  }
+}

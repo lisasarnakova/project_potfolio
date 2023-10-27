@@ -1,0 +1,76 @@
+.about{
+    padding-top: 120px;
+    &__group{
+        max-width: 997px;
+        height: 560px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: flex-end;
+        gap: 40px;
+    }
+    &__text{
+        padding: 80px 0px 72px 0px;
+        max-width: 484px;
+        text-align: center;
+    }
+    &__title{
+        padding-bottom: 24px;
+    }
+    &__descr{
+        text-align: left;
+        padding-bottom: 64px;
+    }
+    &__par{
+        text-align: left;
+    }
+    &__numbers{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    &__num-group{
+        display: flex;
+        gap: 64px;
+    }
+    &__prize-circle {
+        position: relative;
+        left: 87px;
+        bottom: 132px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $grey;
+    }
+    &__programmer-circle {
+        position: absolute;
+        top: 4655px;
+        right: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 170px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $grey;
+    }
+    &__timer-circle {
+        position: absolute;
+        top: 4532px;
+        left: 61px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $grey;
+    }
+}

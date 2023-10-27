@@ -1,0 +1,96 @@
+.request{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 160px;
+    position: relative;
+    &__title{
+        padding-bottom: 8px;
+    }
+    &__subtitle{
+        padding-bottom: 80px;
+    }
+    &__form{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        padding: 40px 24px;
+
+        border-radius: 16px;
+        border: 1px solid $secondary_grey;
+        background: $white_main;
+    }
+    &__input{
+        display: flex;
+        width: 400px;
+        height: 48px;
+        padding: 12px 16px;
+        align-items: center;
+        gap: 16px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border: 1px solid $stroke;
+    }
+    &__service{
+        display: flex;
+        width: 368px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__comment{
+        height: 160px;
+        align-items:flex-start;
+    }
+    &__button{
+        margin-top: 16px;
+        width: 100%;
+    }
+    &__programmer-circle {
+        position: absolute;
+        bottom: 322px;
+        right: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 170px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $grey;
+    }
+    &__message-circle {
+        position: absolute;
+        bottom: 116px;
+        left: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        height: 140px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $grey;
+    }
+    &__lightning-circle {
+        position: absolute;
+        bottom: 774px;
+        left: 111px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        border-radius: 10000px;
+        background: $grey;
+    }
+    &__social{
+        position: relative;
+        left: 264px;
+        bottom: 552px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+}

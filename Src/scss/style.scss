@@ -1,0 +1,30 @@
+@import './identic/colors';
+@import './identic/typography';
+@import './identic/mixins';
+@import './blocks/btn';
+@import './blocks/header';
+@import './blocks/promo';
+@import './blocks/portfolio';
+@import './blocks/about';
+@import './blocks/services';
+@import './blocks/calc';
+@import './blocks/q-a';
+@import './blocks/request';
+
+*{
+  margin: 0;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px){
+  .container {
+    width: 90%;
+  }
+}

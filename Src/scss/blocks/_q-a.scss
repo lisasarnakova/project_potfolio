@@ -1,0 +1,54 @@
+.q-a{
+    background: $black_main;
+    padding: 120px 0px;
+    &__title{
+        color: $white_main;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    &__card{
+        background-color: $white_main;
+        border-radius: 16px;
+        border: 1px solid $secondary_grey;
+        background: $white_main;
+        width: 100%;
+        padding: 32px 40px;
+    }
+    &__card-pos{
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+    &__p{
+        text-align: left;
+    }
+    &__line{
+        width: 80px;
+        height: 1px;
+        opacity: 0.2;
+        background: $black_main;
+    }
+    &__group{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    &__open-card{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+    &__par{
+        width: 800px;
+    }
+    li{
+        margin-left: 20px;
+    }
+}
